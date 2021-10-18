@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 75px;
+    background-color: #2e3a46;
+    
+}
+
+header img {
+    height: 75px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #1e2d3b;
+    height: calc(100vh - 75px);
+    padding: 50px;
+}
+
+.contenitore-dischi{
+    flex-basis: calc(100% / 5 - 50px);
+    color: white;
+    padding: 25px;
+    flex-grow: 0S;
+    background-color: #4e6b86;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    height: 250px;
+}
+
+.contenitore-dischi img{
+    width: 100%;
+    height: auto;
+}
